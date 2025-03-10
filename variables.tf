@@ -3,12 +3,6 @@ variable "vdc_org_name" {
   type        = string
 }
 
-variable "vdc_name" {
-  type        = string
-  description = "Cloud Director VDC Name"
-  default     = ""
-}
-
 variable "catalog_name" {
   description = "Name of the catalog to upload media"
   type        = string
