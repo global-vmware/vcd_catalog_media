@@ -43,8 +43,9 @@ module "vcd_vapp_vm_media_boot" {
   source            = "github.com/global-vmware/vcd_catalog_media.git?ref=v1.0.1"
   vdc_org_name      = "<US1-VDC-ORG-NAME>"
   catalog_name      = "<US1-CATALOG-NAME>"
-  media_name        = "media-files/example.iso"
+  media_name        = "example.iso"
   media_description = "Example ISO uploaded via Terraform"
+  media_path        = "media-files/example.iso"
 }
 ```
 
