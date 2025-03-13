@@ -39,7 +39,7 @@ This Terraform module allows you to upload media ISO files into a VMware Cloud D
 Below is an example Terraform configuration using this module:
 
 ```terraform
-module "vcd_vapp_vm_media_boot" {
+module "vcd_catalog_media" {
   source            = "github.com/global-vmware/vcd_catalog_media.git?ref=v1.0.1"
   vdc_org_name      = "<US1-VDC-ORG-NAME>"
   catalog_name      = "<US1-CATALOG-NAME>"
